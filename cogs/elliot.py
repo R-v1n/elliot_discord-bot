@@ -31,7 +31,7 @@ class Elliot(commands.Cog):
     @commands.command()
     #basic help fn to send help menu
     async def help(self,ctx):
-            await ctx.send(f'Hello i am Elliot.the following commands are available.\n1>!!help :- provide help menu \n2>!!info :- provide info on Team Faux\n3>!!search ex :- search exlpoit in exploit db \n4>!!search wiki :- search wikipedia\n5>!!search yt :- search youtube')
+            await ctx.send(f'Hello i am Elliot.the following commands are available.\n1>!!help :- provide help menu \n2>!!info :- provide info on Team Faux\n3>!!search ex :- search exlpoit in exploit db \n4>!!search wiki :- search wikipedia\n5>!!search yt :- search youtube\n6>!!tools :- info on online_tools')
 
     @commands.command()
     #fn to send info on team Faux

@@ -5,6 +5,7 @@ bot=commands.Bot(command_prefix="!!",help_command=None)
 #using extensions for better modularity,extentions in cogs folder
 bot.load_extension("cogs.elliot")
 bot.load_extension("cogs.search_fns")
+bot.load_extension("cogs.tools")
 #use bot token from your discord dev account
-token="Enter your token"
+token="Enter your token here"
 bot.run(token)
