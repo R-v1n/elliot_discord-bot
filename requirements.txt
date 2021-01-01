@@ -1,2 +1,6 @@
 discord.py
 wikipedia
+beautifulsoup4
+requests
+lxml
+selenium
